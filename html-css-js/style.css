@@ -16,7 +16,7 @@ button{
 }
 
 body{
-    background-color: #181848;
+    background-color: #121214;
     color: white;
 }
 
@@ -51,10 +51,49 @@ fieldset > div{
 
 .input-wrapper{
     flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    border: (var(--border));
+    border-radius: 10px;
+
+    padding: 8px 12px;
+    font: 400 14px/150% 'Roboto', sans-serif;
+    color: #c4c4cc;
+}
+
+fieldset button{
+    width: fit-content;
+    border: 0;
+    background-color: #f48f56;
+    border-radius: 10px;
+    padding: 7px 20px;
+
+    font: 700 12px/24px 'Roboto', sans-serif;
+    color: #00292E;
+}
+
+fieldset button:hover{
+    background-color: #f37c37;
+}
+.lista-participantes{
+    padding: 20px 0;
+}
+
+.lista-participantes > div{
+    border: var(--border);
+    border-radius: 8px;
 }
 
 input{
     all: unset;
+}
+
+fieldset legend, section h2{
+    font: 700 16px/140% 'Roboto', sans-serif;
+    color: #E1E1E6;
+    padding-bottom: 16px;
 }
 
 table{
