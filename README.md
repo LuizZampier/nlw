@@ -10,6 +10,7 @@ td - Adiciona valor a tabela
 Pode-se adicionar atributos nas tags para assim modificar a estrura
 
 # CSS
+border-radius >>>>>>>>>>>>
 
 # JS
 
